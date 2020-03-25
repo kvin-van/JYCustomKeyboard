@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+		one  a JYCustomKeyboard copy apple
                    DESC
 
   spec.homepage     = "https://github.com/kvin-van/JYCustomKeyboard.git"
@@ -70,8 +71,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m,xib}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "JYCustomKeyboard"
+  spec.exclude_files = "JYCustomKeyboard"
 
   # spec.public_header_files = "Classes/**/*.h"
 
