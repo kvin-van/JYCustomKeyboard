@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JYCustomKeyboard"
   spec.version      = "1.0.0"
-  spec.summary      = "JYCustomKeyboard."
+  spec.summary      = "JYCustomKeyboard"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-		one  a JYCustomKeyboard copy apple
+		one a copy apple the JYCustomKeyboard 
                    DESC
 
   spec.homepage     = "https://github.com/kvin-van/JYCustomKeyboard.git"
@@ -72,9 +72,10 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "JYCustomKeyboard"
-  spec.exclude_files = "JYCustomKeyboard"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  #spec.exclude_files = ["src/*{h,m,cpp,c}"]
+
+  # spec.public_header_files = ""src/*{h,m,cpp,c}""
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
